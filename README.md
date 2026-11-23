@@ -5,14 +5,14 @@ This repository contains replication materials for a study of how text relates t
 ## Contents
 
 - `data/regression/`: numeric complete-case inputs for Yelp (165,993 rows), Twitter (118,398), and YouTube (329,947).
-- `data/embeddings/expected_files.json`: filenames, sizes, and hashes of the three embedding inputs. The 1.23 GB Git LFS transfer is pending. PCA and Lasso refits require these files.
+- `data/embeddings/`: three datasets for PCA and Lasso. Each contains 384 embedding coordinates and the stored log-transformed endorsement outcome. The files use Git LFS and total 1.23 GB.
 - `reference_results/`: values reported in the figures and tables, for comparison with fresh runs.
 
 The package excludes original posts, original user and post identifiers, and superseded analyses. The accompanying blinded supplement documents how variables and models were constructed.
 
 ## Reproduce the results
 
-Run from the repository root. Install `requirements.txt` in a Python 3.10+ environment. For Table 2 and the control tables, use a separate Python 3.7 x86-64 environment with `requirements-regression.txt`. The negative-binomial fits are sensitive to the Statsmodels version.
+After cloning, run `git lfs pull` to download the embedding files. Run the commands below from the repository root. Install `requirements.txt` in a Python 3.10+ environment. For Table 2 and the control tables, use a separate Python 3.7 x86-64 environment with `requirements-regression.txt`. The negative-binomial fits are sensitive to the Statsmodels version.
 
 | Result | Command |
 | --- | --- |
@@ -24,4 +24,4 @@ Run from the repository root. Install `requirements.txt` in a Python 3.10+ envir
 
 Fresh results go to `results/`. Before running PCA or Lasso, check the three inputs with `python analysis/verify_embedding_inputs.py`. Figure 3 is regenerated from the 18 archived sensitivities and benchmark values. The original concept models are unavailable for refitting.
 
-The packaged regression data reproduce all six fits at the precision reported in the paper and all 120 summary-statistic cells. The PCA code passed a synthetic OLS check. The saved PCA and Lasso outputs match the reported results.
+The packaged regression data reproduce all six fits at the precision reported in the paper and all 120 summary-statistic cells. A PCA rerun reproduced all 30 reported mean held-out scores and intervals at the paper’s precision. The saved Lasso outputs match the reported results.
