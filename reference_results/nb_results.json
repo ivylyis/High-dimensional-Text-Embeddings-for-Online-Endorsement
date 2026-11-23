@@ -1,0 +1,340 @@
+{
+  "twitter": {
+    "with_cc": {
+      "content_novelty": {
+        "beta": 0.7113,
+        "pval": 0.0
+      },
+      "valence_novelty": {
+        "beta": -0.1292,
+        "pval": 1.682435163364301e-31
+      },
+      "arousal_novelty": {
+        "beta": -0.0945,
+        "pval": 1.8710301994099075e-19
+      },
+      "valence": {
+        "beta": 0.0282,
+        "pval": 0.010911282481447078
+      },
+      "arousal": {
+        "beta": 0.2018,
+        "pval": 3.8254471000591224e-47
+      },
+      "_pseudo_r2": 0.1129,
+      "_n": 118398
+    },
+    "wo_cc": {
+      "valence_novelty": {
+        "beta": -0.0041,
+        "pval": 0.7256992765155235
+      },
+      "arousal_novelty": {
+        "beta": -0.0555,
+        "pval": 3.489795920278654e-07
+      },
+      "valence": {
+        "beta": 0.0861,
+        "pval": 7.392931572994309e-14
+      },
+      "arousal": {
+        "beta": 0.074,
+        "pval": 2.4838956576457707e-07
+      },
+      "_pseudo_r2": 0.1039,
+      "_n": 118398
+    },
+    "controls_with_cc": {
+      "length": {
+        "beta": 0.3821,
+        "pval": 1.0029171562165742e-205
+      },
+      "days_since_first": {
+        "beta": -0.2643,
+        "pval": 2.418147866643008e-128
+      },
+      "followers_count": {
+        "beta": 1.9738,
+        "pval": 0.0
+      },
+      "friends_count": {
+        "beta": -0.2696,
+        "pval": 7.995091245867711e-67
+      },
+      "mentions_user_id": {
+        "beta": -1.5386,
+        "pval": 0.0
+      },
+      "media_type": {
+        "beta": 1.7983,
+        "pval": 0.0
+      },
+      "url": {
+        "beta": -0.3001,
+        "pval": 1.1592394680842998e-41
+      },
+      "hashtags": {
+        "beta": -3.4653,
+        "pval": 0.0
+      },
+      "_pseudo_r2": 0.1129,
+      "_n": 118398
+    },
+    "controls_wo_cc": {
+      "length": {
+        "beta": 0.4912,
+        "pval": 1.7141277324761731e-299
+      },
+      "days_since_first": {
+        "beta": -0.3216,
+        "pval": 5.153698826675089e-157
+      },
+      "followers_count": {
+        "beta": 1.8758,
+        "pval": 0.0
+      },
+      "friends_count": {
+        "beta": -0.1938,
+        "pval": 4.5838414938254385e-31
+      },
+      "mentions_user_id": {
+        "beta": -1.6682,
+        "pval": 0.0
+      },
+      "media_type": {
+        "beta": 2.1296,
+        "pval": 0.0
+      },
+      "url": {
+        "beta": -0.5253,
+        "pval": 2.2208940302538313e-120
+      },
+      "hashtags": {
+        "beta": -4.2497,
+        "pval": 0.0
+      },
+      "_pseudo_r2": 0.1039,
+      "_n": 118398
+    }
+  },
+  "yelp": {
+    "with_cc": {
+      "content_novelty": {
+        "beta": 0.0631,
+        "pval": 4.252397360502826e-40
+      },
+      "valence_novelty": {
+        "beta": 0.0905,
+        "pval": 1.0207153785715954e-23
+      },
+      "arousal_novelty": {
+        "beta": -0.0035,
+        "pval": 0.4265218211480255
+      },
+      "valence": {
+        "beta": -0.1104,
+        "pval": 5.534188671750913e-30
+      },
+      "arousal": {
+        "beta": 0.0586,
+        "pval": 2.2905281772185034e-30
+      },
+      "_pseudo_r2": 0.1433,
+      "_n": 165993
+    },
+    "wo_cc": {
+      "valence_novelty": {
+        "beta": 0.1017,
+        "pval": 1.0368670449338518e-29
+      },
+      "arousal_novelty": {
+        "beta": -0.0003,
+        "pval": 0.9537430682005441
+      },
+      "valence": {
+        "beta": -0.1243,
+        "pval": 6.613827190896815e-38
+      },
+      "arousal": {
+        "beta": 0.0575,
+        "pval": 2.931288640304658e-29
+      },
+      "_pseudo_r2": 0.1429,
+      "_n": 165993
+    },
+    "controls_with_cc": {
+      "length": {
+        "beta": 0.4959,
+        "pval": 0.0
+      },
+      "days_since_first": {
+        "beta": -0.0652,
+        "pval": 7.152016336604266e-50
+      },
+      "business_stars": {
+        "beta": 0.1225,
+        "pval": 2.9313346980257995e-30
+      },
+      "business_review_count": {
+        "beta": -0.1233,
+        "pval": 3.895976243015803e-164
+      },
+      "user_average_stars": {
+        "beta": 0.0023,
+        "pval": 0.6413190970401266
+      },
+      "user_fans": {
+        "beta": 0.6656,
+        "pval": 0.0
+      },
+      "user_elite": {
+        "beta": -0.016,
+        "pval": 0.22686340135055338
+      },
+      "_pseudo_r2": 0.1433,
+      "_n": 165993
+    },
+    "controls_wo_cc": {
+      "length": {
+        "beta": 0.4829,
+        "pval": 0.0
+      },
+      "days_since_first": {
+        "beta": -0.0608,
+        "pval": 8.987998098818646e-44
+      },
+      "business_stars": {
+        "beta": 0.124,
+        "pval": 5.5620064613300495e-31
+      },
+      "business_review_count": {
+        "beta": -0.1254,
+        "pval": 1.083795261842973e-169
+      },
+      "user_average_stars": {
+        "beta": 0.001,
+        "pval": 0.8429643837718942
+      },
+      "user_fans": {
+        "beta": 0.6658,
+        "pval": 0.0
+      },
+      "user_elite": {
+        "beta": -0.024,
+        "pval": 0.06830371650919383
+      },
+      "_pseudo_r2": 0.1429,
+      "_n": 165993
+    }
+  },
+  "youtube": {
+    "with_cc": {
+      "content_novelty": {
+        "beta": 0.2366,
+        "pval": 4.277310344251325e-65
+      },
+      "valence_novelty": {
+        "beta": -0.0256,
+        "pval": 0.015138438455888291
+      },
+      "arousal_novelty": {
+        "beta": 0.0086,
+        "pval": 0.3996990837195914
+      },
+      "valence": {
+        "beta": -0.0724,
+        "pval": 2.0205718049630446e-11
+      },
+      "arousal": {
+        "beta": 0.2651,
+        "pval": 3.4769133767859113e-118
+      },
+      "_pseudo_r2": 0.0223,
+      "_n": 329947
+    },
+    "wo_cc": {
+      "valence_novelty": {
+        "beta": 0.0192,
+        "pval": 0.05910716396980476
+      },
+      "arousal_novelty": {
+        "beta": 0.038,
+        "pval": 0.0001593398709936701
+      },
+      "valence": {
+        "beta": -0.0809,
+        "pval": 1.0156183703319513e-13
+      },
+      "arousal": {
+        "beta": 0.2299,
+        "pval": 1.6592904166771053e-91
+      },
+      "_pseudo_r2": 0.0219,
+      "_n": 329947
+    },
+    "controls_with_cc": {
+      "length": {
+        "beta": 0.9239,
+        "pval": 0.0
+      },
+      "days_since_first": {
+        "beta": -0.0642,
+        "pval": 3.953424924657121e-12
+      },
+      "user_subscriber_count": {
+        "beta": 0.5125,
+        "pval": 0.0
+      },
+      "video_likes": {
+        "beta": 0.4563,
+        "pval": 4.649119538037357e-300
+      },
+      "video_channel_subscriber_count": {
+        "beta": -0.3965,
+        "pval": 0.0
+      },
+      "arousal_title": {
+        "beta": 0.05,
+        "pval": 2.4230207161838565e-09
+      },
+      "valence_title": {
+        "beta": 0.0655,
+        "pval": 4.2150816426485814e-10
+      },
+      "_pseudo_r2": 0.0223,
+      "_n": 329947
+    },
+    "controls_wo_cc": {
+      "length": {
+        "beta": 0.9288,
+        "pval": 0.0
+      },
+      "days_since_first": {
+        "beta": -0.063,
+        "pval": 7.2125231842035074e-12
+      },
+      "user_subscriber_count": {
+        "beta": 0.5336,
+        "pval": 0.0
+      },
+      "video_likes": {
+        "beta": 0.4937,
+        "pval": 0.0
+      },
+      "video_channel_subscriber_count": {
+        "beta": -0.3826,
+        "pval": 0.0
+      },
+      "arousal_title": {
+        "beta": 0.0393,
+        "pval": 2.5671922769479867e-06
+      },
+      "valence_title": {
+        "beta": 0.0602,
+        "pval": 8.888888370287527e-09
+      },
+      "_pseudo_r2": 0.0219,
+      "_n": 329947
+    }
+  }
+}

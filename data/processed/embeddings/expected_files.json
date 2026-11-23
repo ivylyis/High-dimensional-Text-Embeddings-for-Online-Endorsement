@@ -1,0 +1,14 @@
+{
+  "embedding_endrosment_twitter.parquet": {
+    "sha256": "0121c7e8042c8d525fcd049729d22d185538b48181333d2b76642205422a9ee6",
+    "bytes": 244380169
+  },
+  "embedding_endrosment_yelp.parquet": {
+    "sha256": "b893de840d863b4a6623e294d870590072332df8d6d81d9dc850f364d601c32c",
+    "bytes": 338785045
+  },
+  "embedding_endrosment_youtube.parquet": {
+    "sha256": "0620986b7c3840004b166d9bb8cb6864f3b26e627c2790071574fb1de498512e",
+    "bytes": 648431562
+  }
+}

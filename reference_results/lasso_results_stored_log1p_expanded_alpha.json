@@ -1,0 +1,74 @@
+[
+  {
+    "tag": "twitter",
+    "n": 120007,
+    "source_outcome_column": "retweet_count",
+    "target": "stored_log1p_endorsement_count",
+    "outcome_transform_applied": "none",
+    "split_seed": 0,
+    "test_size": 0.2,
+    "alpha_grid_min": 1e-06,
+    "alpha_grid_max": 1.0,
+    "alpha_grid_size": 50,
+    "alpha_grid_label": "common_logspace_1e-6_to_1_50",
+    "alpha": 4.094915062380427e-06,
+    "alpha_selected_at_boundary": false,
+    "r2_test": 0.32822988354394356,
+    "nonzero": 381,
+    "nonzero_frac": 0.9921875,
+    "outcome_validation": {
+      "stored_min": 0.0,
+      "stored_max": 12.630238466860595,
+      "recovered_raw_count_max": 305662.00000000023,
+      "max_integer_recovery_error": 2.3283064365386963e-10
+    }
+  },
+  {
+    "tag": "yelp",
+    "n": 165996,
+    "source_outcome_column": "useful_count",
+    "target": "stored_log1p_endorsement_count",
+    "outcome_transform_applied": "none",
+    "split_seed": 0,
+    "test_size": 0.2,
+    "alpha_grid_min": 1e-06,
+    "alpha_grid_max": 1.0,
+    "alpha_grid_size": 50,
+    "alpha_grid_label": "common_logspace_1e-6_to_1_50",
+    "alpha": 4.094915062380427e-06,
+    "alpha_selected_at_boundary": false,
+    "r2_test": 0.1737325326045489,
+    "nonzero": 362,
+    "nonzero_frac": 0.9427083333333334,
+    "outcome_validation": {
+      "stored_min": 0.0,
+      "stored_max": 5.3471075307174685,
+      "recovered_raw_count_max": 208.99999999999994,
+      "max_integer_recovery_error": 5.684341886080802e-14
+    }
+  },
+  {
+    "tag": "youtube",
+    "n": 332680,
+    "source_outcome_column": "likes",
+    "target": "stored_log1p_endorsement_count",
+    "outcome_transform_applied": "none",
+    "split_seed": 0,
+    "test_size": 0.2,
+    "alpha_grid_min": 1e-06,
+    "alpha_grid_max": 1.0,
+    "alpha_grid_size": 50,
+    "alpha_grid_label": "common_logspace_1e-6_to_1_50",
+    "alpha": 7.196856730011514e-06,
+    "alpha_selected_at_boundary": false,
+    "r2_test": 0.06266090006715053,
+    "nonzero": 366,
+    "nonzero_frac": 0.953125,
+    "outcome_validation": {
+      "stored_min": 0.0,
+      "stored_max": 13.54762326964066,
+      "recovered_raw_count_max": 764992.9999999995,
+      "max_integer_recovery_error": 4.656612873077393e-10
+    }
+  }
+]

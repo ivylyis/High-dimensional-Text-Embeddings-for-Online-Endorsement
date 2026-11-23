@@ -1,0 +1,19 @@
+concept,positive_or_displayed_direction,platform,tcav_sensitivity,benchmark_lower,benchmark_upper,benchmark_definition
+Political orientation,Republican (vs Democratic),yelp,-0.179464000,-0.034227000,0.023632000,random-direction benchmark interval
+Political orientation,Republican (vs Democratic),twitter,0.328430000,-0.139718000,0.066677000,random-direction benchmark interval
+Political orientation,Republican (vs Democratic),youtube,-0.094719000,-0.017476000,0.014502000,random-direction benchmark interval
+Gender,Male (vs Female),yelp,0.142914000,-0.034227000,0.023632000,random-direction benchmark interval
+Gender,Male (vs Female),twitter,-0.120658000,-0.139718000,0.066677000,random-direction benchmark interval
+Gender,Male (vs Female),youtube,-0.090294000,-0.017476000,0.014502000,random-direction benchmark interval
+Approval tone,Approval (vs Disapproval),yelp,-0.293152000,-0.034227000,0.023632000,random-direction benchmark interval
+Approval tone,Approval (vs Disapproval),twitter,0.829087000,-0.139718000,0.066677000,random-direction benchmark interval
+Approval tone,Approval (vs Disapproval),youtube,0.164459000,-0.017476000,0.014502000,random-direction benchmark interval
+Length,Short (vs Long),yelp,-0.379552104,-0.034227000,0.023632000,common platform-specific random-direction benchmark interval
+Length,Short (vs Long),twitter,0.514547413,-0.139718000,0.066677000,common platform-specific random-direction benchmark interval
+Length,Short (vs Long),youtube,-0.583121997,-0.017476000,0.014502000,common platform-specific random-direction benchmark interval
+Interactivity,Passive (vs Interactive),yelp,-0.429025875,-0.034227000,0.023632000,common platform-specific random-direction benchmark interval
+Interactivity,Passive (vs Interactive),twitter,0.455984237,-0.139718000,0.066677000,common platform-specific random-direction benchmark interval
+Interactivity,Passive (vs Interactive),youtube,-0.067438622,-0.017476000,0.014502000,common platform-specific random-direction benchmark interval
+Originality,Original (vs Imitative),yelp,0.028465361,-0.034227000,0.023632000,common platform-specific random-direction benchmark interval
+Originality,Original (vs Imitative),twitter,0.094831908,-0.139718000,0.066677000,common platform-specific random-direction benchmark interval
+Originality,Original (vs Imitative),youtube,0.204365845,-0.017476000,0.014502000,common platform-specific random-direction benchmark interval
