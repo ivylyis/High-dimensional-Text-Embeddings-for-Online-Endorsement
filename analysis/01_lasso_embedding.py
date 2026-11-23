@@ -51,7 +51,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA_DIR = ROOT / "data" / "processed" / "embeddings"
+DATA_DIR = ROOT / "data" / "embeddings"
 OUTPUT_JSON = ROOT / "results" / "lasso_results_stored_log1p_expanded_alpha.json"
 EMB = [str(i) for i in range(384)]
 

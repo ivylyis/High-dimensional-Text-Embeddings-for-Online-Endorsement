@@ -1,11 +1,11 @@
-"""Verify the three processed embedding files against their expected SHA-256 digests."""
+"""Verify the three embedding files against their expected SHA-256 digests."""
 
 import hashlib
 import json
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parents[1] / "data" / "processed" / "embeddings"
+ROOT = Path(__file__).resolve().parents[1] / "data" / "embeddings"
 
 
 def main():
@@ -24,7 +24,7 @@ def main():
             errors.append(f"{name}: SHA-256 mismatch")
     if errors:
         raise SystemExit("\n".join(errors))
-    print("All three processed embedding files match.")
+    print("All three embedding files match.")
 
 
 if __name__ == "__main__":

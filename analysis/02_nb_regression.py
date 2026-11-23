@@ -22,7 +22,7 @@ from sklearn.preprocessing import StandardScaler
 warnings.filterwarnings("ignore")
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "data" / "processed" / "regression"
+DATA = ROOT / "data" / "regression"
 
 RENAME = {
     "likes": "endorsement_number", "useful_count": "endorsement_number",

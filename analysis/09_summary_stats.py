@@ -6,7 +6,7 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "data" / "processed" / "regression"
+DATA = ROOT / "data" / "regression"
 EXPECTED_ROWS = {"yelp": 165_993, "twitter": 118_398, "youtube": 329_947}
 OUTCOMES = {"yelp": "useful_count", "twitter": "retweet_count", "youtube": "likes"}
 COMMON = [

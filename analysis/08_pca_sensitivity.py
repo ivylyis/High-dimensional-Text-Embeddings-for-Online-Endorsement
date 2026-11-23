@@ -73,7 +73,7 @@ from sklearn.model_selection import train_test_split
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA_DIR = ROOT / "data" / "processed" / "embeddings"
+DATA_DIR = ROOT / "data" / "embeddings"
 OUTPUT_DIR = ROOT / "results"
 FIGURE_DIR = ROOT / "results" / "figures"
 

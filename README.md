@@ -1,11 +1,11 @@
 # Cross-platform text endorsement
 
-This repository contains replication materials for a study of how text relates to useful votes on Yelp, retweets on Twitter, and comment likes on YouTube. It provides processed data, analysis scripts, and reference outputs for the reported regressions, embedding prediction, and concept probes.
+This repository contains replication materials for a study of how text relates to useful votes on Yelp, retweets on Twitter, and comment likes on YouTube. It provides data, analysis scripts, and reference outputs for the reported regressions, embedding prediction, and concept probes.
 
 ## Contents
 
-- `data/processed/regression/`: numeric complete-case inputs for Yelp (165,993 rows), Twitter (118,398), and YouTube (329,947).
-- `data/processed/embeddings/expected_files.json`: filenames, sizes, and hashes of the three processed embedding inputs. The 1.23 GB Git LFS transfer is pending. PCA and Lasso refits require these files.
+- `data/regression/`: numeric complete-case inputs for Yelp (165,993 rows), Twitter (118,398), and YouTube (329,947).
+- `data/embeddings/expected_files.json`: filenames, sizes, and hashes of the three embedding inputs. The 1.23 GB Git LFS transfer is pending. PCA and Lasso refits require these files.
 - `reference_results/`: values reported in the figures and tables, for comparison with fresh runs.
 
 The package excludes original posts, original user and post identifiers, and superseded analyses. The accompanying blinded supplement documents how variables and models were constructed.
